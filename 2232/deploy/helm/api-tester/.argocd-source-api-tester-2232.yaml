@@ -1,0 +1,8 @@
+helm:
+  parameters:
+  - name: image.name
+    value: devbelly/api-tester
+    forcestring: true
+  - name: image.tag
+    value: 1.1.1-250103.032023
+    forcestring: true
